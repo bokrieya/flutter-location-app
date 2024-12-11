@@ -1,0 +1,27 @@
+name: best_location
+description: 'A new Flutter project.'
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.5 # Compatible with Dart 2.18.6
+  http: ^0.13.5 # Compatible with Dart 2.18.6
+  shared_preferences: ^2.0.15 # Compatible with Dart 2.18.6
+  flutter_map: ^4.0.0
+  flutter_speed_dial: ^7.0.0
+  latlong2: ^0.8.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0 # Downgraded to a version compatible with Dart 2.18.6
+
+flutter:
+  uses-material-design: true
